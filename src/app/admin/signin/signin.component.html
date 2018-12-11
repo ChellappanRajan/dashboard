@@ -1,0 +1,25 @@
+
+ <div class="wrapper">
+  <div class="child left-side">
+      <div class="admin">
+        <h1 class="admin-title">Admin</h1>
+        <img class="admin-img" src="../../../assets/admin/admin.jpg" alt="">
+      </div>
+  </div>
+  <div class="child right-side">
+   <div class="form__wrapper">
+    <form (ngSubmit)="login()">
+      <label for="admin">
+        Admin Name
+      </label>
+      <input id="admin" type="text" placeholder="username">
+      <label for="password">
+        Password
+      </label>
+      <input id="password" type="password" placeholder="password">
+    <br>
+       <input  id="password" type="button" value="Submit">
+   </form>
+   </div>
+  </div>
+ </div>

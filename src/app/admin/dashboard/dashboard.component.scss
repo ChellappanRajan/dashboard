@@ -1,0 +1,27 @@
+div{
+    text-align: center;
+    margin-top:100px;
+    border-radius: 20px;
+    
+}
+ul{
+    transform: skewX(-20deg);
+}
+ul li{
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    border: 1px solid rgba(25, 181, 254, 1);
+   
+}
+li:hover{
+    background: rgba(228, 241, 254, 1);
+    transition: all .3s ease-in;
+}
+
+a{
+    text-decoration: none;
+}
+a:active{
+    background: #fefefe;
+}
